@@ -6,7 +6,7 @@ const JWT_SECRET = process.env.JWT_SECRET || 'secret123';
 
 exports.register = async (req, res) => {
   const { name, email, password } = req.body;
-  console.log('📥 Signup data received:', req.body);
+  
 
   try {
     const existingUser = await User.findOne({ email });
