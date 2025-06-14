@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('statusFilter').addEventListener('change', fetchMessages);
 });
 
-const API_BASE_URL = 'https://online-e-learning-platform.onrender.com';
+const API_BASE_URL = 'https://olms-4ozn.onrender.com';
 
 async function fetchMessages() {
     try {
